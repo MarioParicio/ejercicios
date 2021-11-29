@@ -18,10 +18,11 @@ public class und5_ej21 {
             for ( int i = 1; i < sentence.length(); i++){
 
                 System.out.print(Character.toLowerCase(sentence.charAt(i)));
-                if (sentence.charAt(i) ==  ' ') {
+                while (sentence.charAt(i) ==  ' ') {
                     int x = i + 1;
                     System.out.print(Character.toUpperCase(sentence.charAt(x)));
                     i++;
+                    
                 }
 
                 
